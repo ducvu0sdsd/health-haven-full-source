@@ -1,0 +1,115 @@
+const express = require("express");
+const useRouter = express.Router();
+const middleWareToken = require("../../app/middlewares/MiddleWareToken");
+const healthLogBookController = require("../../app/Controllers/HealthLogBookController");
+useRouter.post(
+  "/findByNextMonth",
+  middleWareToken.validateToken,
+  healthLogBookController.findByNextMonth
+);
+useRouter.post(
+  "/findByMonth",
+  middleWareToken.validateToken,
+  healthLogBookController.findByMonth
+);
+useRouter.post(
+  "/findByNextWeek",
+  middleWareToken.validateToken,
+  healthLogBookController.findByNextWeek
+);
+useRouter.post(
+  "/findByWeek",
+  middleWareToken.validateToken,
+  healthLogBookController.findByWeek
+);
+useRouter.post(
+  "/findByNextDay",
+  middleWareToken.validateToken,
+  healthLogBookController.findByNextDay
+);
+useRouter.post(
+  "/findByDay",
+  middleWareToken.validateToken,
+  healthLogBookController.findByDay
+);
+useRouter.get(
+  "/findByPatient/:id",
+  middleWareToken.validateToken,
+  healthLogBookController.findByPatient
+);
+useRouter.get(
+  "/findByDoctor/:id",
+  middleWareToken.validateToken,
+  healthLogBookController.findByDoctor
+);
+useRouter.get(
+  "/get-one/:id",
+  middleWareToken.validateToken,
+  healthLogBookController.getOne
+);
+useRouter.post(
+  "/transfer-doctor",
+  middleWareToken.validateToken,
+  healthLogBookController.updateDoctor
+);
+useRouter.post(
+  "/stopped",
+  middleWareToken.validateToken,
+  healthLogBookController.stopped
+);
+useRouter.post(
+  "/rejected",
+  middleWareToken.validateToken,
+  healthLogBookController.rejected
+);
+useRouter.post(
+  "/canceled",
+  middleWareToken.validateToken,
+  healthLogBookController.canceled
+);
+useRouter.post(
+  "/accepted",
+  middleWareToken.validateToken,
+  healthLogBookController.accepted
+);
+useRouter.get(
+  "/get-all",
+  middleWareToken.validateToken,
+  healthLogBookController.getAll
+);
+useRouter.post(
+  "/update-symptom-note",
+  middleWareToken.validateToken,
+  healthLogBookController.updateSymptom
+);
+useRouter.post(
+  "/update-bmi",
+  middleWareToken.validateToken,
+  healthLogBookController.updateBMI
+);
+useRouter.post(
+  "/update-temperature",
+  middleWareToken.validateToken,
+  healthLogBookController.updateTemperature
+);
+useRouter.post(
+  "/update-health-rate",
+  middleWareToken.validateToken,
+  healthLogBookController.updateHeartRate
+);
+useRouter.post(
+  "/update-blood-pressure",
+  middleWareToken.validateToken,
+  healthLogBookController.updateBloodPressure
+);
+useRouter.post(
+  "/update",
+  middleWareToken.validateToken,
+  healthLogBookController.update
+);
+useRouter.post(
+  "/save",
+  middleWareToken.validateToken,
+  healthLogBookController.save
+);
+module.exports = useRouter;

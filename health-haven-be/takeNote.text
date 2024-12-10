@@ -1,0 +1,73 @@
+Nhớ đổi link meet qua bên https://heath-haven-meet.vercel.app
+
+---
+# fix
+Coi lại chuyển bác sĩ co1 liên quan đến dateStop
+customer khi xem chi tiết bác sĩ
+reponsive web
+thêm redis cho mượt
+Phân quyền lại các trang
+cái appointment lượt bỏ bớt mấy cái quá hẹn
+ràng buột lại description thanh toán(ok)
+những lịch đặt quá hạn thì tự kết thúc (appointment)
+Bác sĩ để xuất(ok)
+Chỉnh lại chuyên Khoa (mobile)
+Đặt kah1m cho customer(mobile)
+Check lại các trang token
+Thêm tài khoản ngân hàng vào lúc đăng ký(ok)
+lịch bị hủy có thể đặt lại giờ FormBooking appointment :115 (ok)
+cài ràng buộc dữ liệu nhập các chỉ số sức khỏe(ok)
+Chưa rõ thời gian appointmentHome(ok)
+chỉnh thông báo cho hoàn tiền và rút tiền(ok)
+thêm bank bên đăng ký(ok)
+nút nhận tiền có cài ràng buộc cập nhật tài khoản ngân hàng(mobile)
+#Đã xong
+status room (ok)
+xin lại key AI(ok)
+khi hoàn thành thì gửi mail appointment thường(ok)
+Bắt buộc bác sĩ, user nhập mail(ok)
+remove cho phần appoitmentHome reject với cancel(ok)
+Thêm chức năng đặt khám tại nhà(ok)
+màn hình thanh toán cho khám tại nhà(ok)
+set lại phần hiện thời gian đặt lịch cho appointment(ok)
+Khi đặt lịch thành công bấm vào đặt tiếp nó lại chuyển phần thanh toán tới bước cuối(ok)
+thêm lịch của bác sĩ cộng thêm 1(ok)
+set chức năng cho nút đặt khám ngay tại /cac-dich-vu(ok)
+check lại luồn sự kiện hiển thị nút hồ sơ bác sĩ(thằng đức ok)
+add vào lịch của bác sũ khi bác sĩ xác nhận khám tại nhà (ok)
+ẩn khám tại nhà đối với các bác sĩ khác khi đã thành toàn (ok)
+move time vào lịch của bác sũ khi bác sĩ khi lịch hết hạn(ok)
+Thông báo đầu tuần cho bác sĩ kahm1 lâu dài(ok)
+dki 1 bác sĩ (ok)
+Cảnh báo sức khỏe(ok)
+xem hồ sơ bệnh án bệnh nhân của tôi (ok)
+chiệu trứng ghi chú riêng (ok)
+customer and user gui ho so qua gmail(ok)
+Chỉnh lại thông báo đặt lịch set up khám định kỳ(ok)
+Chuyển bác sĩ xong thì tắt form(ok)
+Trong quá trình chờ bác sĩ accept thì không dc dki bác sĩ theo dõi khác(ok)
+fix lại khi patient vào meet thì khi out phòng là out (ok)
+meet định kỳ (ok)
+load chart donut(ok)
+xem detail theo doi suc khoe (ok)
+thêm chổ nhập ngày tái khám(ok)
+set time hết khám lâu dài (ok)
+thiếu status sau khi khám hoàn tất (ok)
+mobile(ok)
+AI (ok)
+Xem lại thông báo đặt lịch hẹn kahm1 định kỳ(ok)
+thông báo rỗng(ok)
+Tìm bác sĩ(ok)
+ràng buộc các input(ok)
+thông báo thành công khi hoàn thành hồ sơ sức khỏe tại nhà và refresh lại dữ liệu(ok)
+Khi đã duyệt rồi thì hiện form medical record(ok)
+hoàn thành 1 cái record thì load lại trang(ok)
+sắp xếp lại các nút hoàn thành và đánh giá(ok)
+google map api (ok)
+còn phần khi hoàn tất khám tại nhà(ok)
+Gửi mail cho appointmentHome (ok)
+tich hop momo(ok)
+Thêm thống kê doanh thu cho bác sĩ(ok)
+#Lỡ dỡ
+smart contract(Tạm)
+
